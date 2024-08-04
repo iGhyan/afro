@@ -18,7 +18,7 @@ const BusinessCategory = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 ">
         {images.map((image, index) => (
           <div key={index} className="flex flex-col justify-evenly p-4 w-80 hover:border-2 hover:border-[#ad8c19]">
-            <Image src={image.src} alt={image.alt} className="w-40 h-20 mb-4 flex items-center justify-center" />
+            <Image src={image.src} alt={image.alt} width={40} height={40} className="w-40 h-20 mb-4 flex items-center justify-center" />
             <h2 className="text-[#2b5c17] text-2xl font-bold hover:text-[#ad8c19] text-center">{image.title}</h2>
           </div>
         ))}

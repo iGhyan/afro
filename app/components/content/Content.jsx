@@ -1,5 +1,5 @@
 import React from 'react'
-import BusinessCategory from './businesscategory/BusinessCategory';
+import BusinessCategory from '../content/businesscategory/Businesscategory';
 import Aboutus from '../../components/content/aboutus/Aboutus';
 
 const Content = () => {
