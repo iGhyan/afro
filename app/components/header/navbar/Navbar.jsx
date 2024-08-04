@@ -21,22 +21,22 @@ const Navbar = () => {
           </Link>
         </div>
         <nav className="hidden md:flex space-x-6">
-          <Link href="/" className="text-[#2b5c17] text-orbitron border-b-2 border-transparent hover:border-[#ad8c19]">
+          <Link href="/" className="text-white text-orbitron border-b-2 border-transparent hover:text-[#2b5c17] hover:border-[#ad8c19]">
             HOME
           </Link>
-          <Link href="/about" className="text-[#2b5c17] text-orbitron border-b-2 border-transparent hover:border-[#ad8c19]">
+          <Link href="/about" className="text-white text-orbitron border-b-2 border-transparent hover:text-[#2b5c17] hover:border-[#ad8c19]">
             ABOUT US
           </Link>
-          <Link href="/exporting" className="text-[#2b5c17] text-orbitron border-b-2 border-transparent hover:border-[#ad8c19]">
+          <Link href="/exporting" className="text-white text-orbitron border-b-2 border-transparent hover:text-[#2b5c17] hover:border-[#ad8c19]">
             EXPORTING
           </Link>
-          <Link href="/products" className="text-[#2b5c17] text-orbitron border-b-2 border-transparent hover:border-[#ad8c19]">
+          <Link href="/products" className="text-white text-orbitron border-b-2 border-transparent hover:text-[#2b5c17] hover:border-[#ad8c19]">
             PRODUCTS
           </Link>
-          <Link href="/services" className="text-[#2b5c17] text-orbitron border-b-2 border-transparent hover:border-[#ad8c19]">
+          <Link href="/services" className="text-white text-orbitron border-b-2 border-transparent hover:text-[#2b5c17] hover:border-[#ad8c19]">
             SERVICES
           </Link>
-          <Link href="/contact" className="text-[#2b5c17] text-orbitron border-b-2 border-transparent hover:border-[#ad8c19]">
+          <Link href="/contact" className="text-white text-orbitron border-b-2 border-transparent hover:text-[#2b5c17] hover:border-[#ad8c19]">
             CONTACT
           </Link>
         </nav>

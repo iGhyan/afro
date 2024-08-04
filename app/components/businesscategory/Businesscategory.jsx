@@ -6,14 +6,14 @@ import Image from 'next/image';
 
 const BusinessCategory = () => {
   const images = [
-    { src: '/images/pnt.png', alt: 'Image 1', title: 'Peanut' },
-    { src: '/images/pnt1.png', alt: 'Image 2', title: 'Pine nut' },
-    { src: '/images/pist.png', alt: 'Image 3', title: 'pistachio' },
-    { src: '/images/sun.png', alt: 'Image 4', title: 'Sunflower' },
+    { src: '/images/pnt.png', title: 'Peanut' },
+    { src: '/images/pnt1.png', title: 'Pine nut' },
+    { src: '/images/pist.png', title: 'pistachio' },
+    { src: '/images/sun.png', title: 'Sunflower' },
   ];
 
   return (
-    <div className="container mx-auto px-4">
+    <div className="container mx-auto px-4 py-10">
         <div className='py-[40px]'><h1 className='text-center text-6xl text-green-900'>BUSINESS <span className='text-[54px] text-gray-300'>CATEGORY</span></h1></div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 ">
         {images.map((image, index) => (

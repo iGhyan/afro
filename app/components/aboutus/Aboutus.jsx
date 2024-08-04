@@ -1,10 +1,10 @@
 import React from 'react';
-import afro from '../../../../public/images/arfo.png';
+import afro from '../../../public/images/arfo.png';
 import Image from 'next/image';
 
 const Aboutus = ({ title, description, buttonText, imageSrc, imageAlt, heading, paragraph }) => {
   return (
-    <div>
+    <div className='container mx-auto px-4 py-6'>
         <div className='flex justify-center items-center my-[60px]'>
             <Image src={afro} alt='bannar' width={600} height={350}/>
         </div>

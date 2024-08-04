@@ -5,8 +5,8 @@ import Navbar from './navbar/Navbar'
 
 const Header = () => {
   return (
-    <header className="relative w-full h-[200px]">
-      {/* <SliderComponent /> */}
+    <header className="relative w-full">
+      <SliderComponent />
       <Navbar />
     </header>
   );
