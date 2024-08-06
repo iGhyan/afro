@@ -14,7 +14,7 @@ const BusinessCategory = () => {
 
   return (
     <div className="container mx-auto px-4 py-10">
-        <div className='py-[40px]'><h1 className='text-center text-6xl text-green-900'>BUSINESS <span className='text-[54px] text-gray-300'>CATEGORY</span></h1></div>
+        <div className='py-[40px]'><h1 className='text-center text-6xl text-gray-800 font-black'>BUSINESS <span className='text-6xl  font-thin text-gray-400'>CATEGORY</span></h1></div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 ">
         {images.map((image, index) => (
           <div key={index} className="flex flex-col justify-evenly p-4 w-80 hover:border-2 hover:border-[#ad8c19]">
