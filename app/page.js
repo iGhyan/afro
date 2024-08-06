@@ -4,8 +4,11 @@ import BusinessCategory from "./components/businesscategory/Businesscategory";
 import FeatureComponent from './components/feature/FeatureComponent';
 import Card from './components/card/Card';
 import ViewProducts from './components/viewproducts/ViewProducts';
+<<<<<<< HEAD
 import CompaniesSlider from "./components/compinesslider/CompaniesSlider";
 import ContactForm from "./components/contactform/ContactForm";
+=======
+>>>>>>> 7bc197fe38bccd3651a0893842d979cab291af35
 
 export default function Home() {
   const data = {
@@ -34,6 +37,7 @@ export default function Home() {
     <BusinessCategory />
     <Aboutus {...data}/>
     <FeatureComponent />
+<<<<<<< HEAD
     <div className=""><h1 className="text-center text-6xl font-black ">OUR PRODUCTS</h1>
     <Card />
     </div>
@@ -41,5 +45,12 @@ export default function Home() {
     <CompaniesSlider items={items} />
     <ContactForm />
     </main>
+=======
+    <div className="mt-[60px] mb-[10px]"><h1 className="text-center text-6xl font-black ">OUR PRODUCTS</h1>
+    <Card />
+    </div>
+    <ViewProducts />
+      </main>
+>>>>>>> 7bc197fe38bccd3651a0893842d979cab291af35
   );
 }
